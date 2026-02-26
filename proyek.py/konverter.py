@@ -1,0 +1,3 @@
+def konversi(kode, kurs):
+    
+    
