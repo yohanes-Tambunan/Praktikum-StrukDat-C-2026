@@ -5,7 +5,7 @@ class RumahKu:
         self.alamat= alamat
 
     def introduce_self(self):
-        print(f"rumahku memiliki sebutan yaitu{self.name}", "kecantikan rumah ku sanga{self.kecantikan}", "alamat rumahku{self.alamat}")
+        print(f"rumahku memiliki sebutan yaitu{self.nama}", "kecantikan rumah ku sanga{self.kecantikan}", "alamat rumahku{self.alamat}")
 
     def alamat_baru(self,alamat_baru):
         self.alamat= alamat_baru
@@ -19,3 +19,5 @@ print(rumah_satu.nama)
 print(rumah_satu.kecantikan)
 print(rumah_satu.alamat)
 rumah_satu.alamat_baru("jalan keling")
+
+print(rumah_satu.introduce_self())
