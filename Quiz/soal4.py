@@ -13,10 +13,10 @@ def hitung_komisi(total_penjualan, skema, index=0):
     else:
         return hitung_komisi(total_penjualan, skema, index + 1)
 
-
+total = 0
 nama = input("Nama Sales: ")
 total = int(input("Total Penjualan: "))
-
+persen = 0
 persen = hitung_komisi(total, skema_komisi)
 komisi = total * persen / 100
 
