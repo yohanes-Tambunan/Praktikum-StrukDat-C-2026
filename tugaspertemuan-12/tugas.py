@@ -100,6 +100,8 @@ print(f"[STATISTIK] ID Terbesar: {tree.get_max(tree.root).id}")
 print(f"[INFO] Height: {tree.height(tree.root)}")
 
 
+
+
         
     
         

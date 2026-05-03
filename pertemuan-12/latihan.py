@@ -55,7 +55,7 @@ print('''
 ''')
 
 print("[INFO] Membangun Struktur Gudang...")
-tree.insert_manual()
+tree.insert_manual() 
 print("[INFO] Struktur berhasil dibuat\n")
 
 print("HASIL AUDIT:")
